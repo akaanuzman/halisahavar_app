@@ -1,16 +1,26 @@
-# halisahavar_app
+# 🔥 Halısahavar Flutter Geliştiricisi Değerlendirme Projesi
 
-A new Flutter project.
+## 📱 State Management
+Bana kullanımı kolay geldiği için bu projede provider ve MobX state yönetimlerini kullandım.
+<br>
+<img src="https://mobx.js.org/img/mobx.png" width="300" height="300">
 
-## Getting Started
+## 💻 Software Design Pattern
+Proje'nin performansı için ve kod tekrarını engellemek açısından singleton sınıflar, abstract factory patterne ve observer tasarım paternine ihtiyaç duydum.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## 📚 Software Architectural Pattern
+Projede MVVM yazılım mimari modeli kullandım.
+<br>
+<img src="https://api.hackathonturkiye.com/media/hosting/images/mvvm.jpg">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 📁 Foldering
+Projemiz core,features,product olmak üzere üç klasörden oluşuyor.Core katmanında tüm projelerde kullandığım, projeden projeye taşıdığım sınıflar,componentler,managerlar vs bulunyor. Features katmanında ekranlarımız MVVM yazılım mimari modeline göre ayrılıyor. Product kısmında ise projeye özel componentler, sınıflar,managerlar vs bulunuyor.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🎁 Packages 
+Tasarım kısmında bana çok kolaylık sağlayan propertyleri olduğu için Veli Bacik hocamın kartal paketini kullanıyorum.
+<br/>
+["Kartal"](https://pub.dev/packages/kartal) paketine ulaşmak isterseniz:
+<br/>
+<br/>
