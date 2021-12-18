@@ -19,4 +19,7 @@ class IconConstants {
   final IconData secondTabBar = Icons.savings;
   final IconData listViewLeading = Icons.sports;
   final IconData listViewTrailing = Icons.add_task;
+  final IconData fabIcon = Icons.add;
+  final IconData couponMatchListViewLeading = Icons.attach_money;
+  final IconData couponListViewLeading = Icons.description;
 }

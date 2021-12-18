@@ -22,6 +22,9 @@ class Children {
   double? oran;
   int? yuzde;
 
+  @JsonKey(ignore: true)
+  bool isSelected = false;
+
   Children({this.evSahibi, this.deplasman, this.tahmin, this.oran, this.yuzde});
 
   factory Children.fromJson(Map<String, dynamic> json) =>

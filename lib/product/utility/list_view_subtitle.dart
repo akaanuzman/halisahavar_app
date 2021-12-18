@@ -23,10 +23,9 @@ class ListViewSubTitle extends Column {
                     viewModel.items.children?[index]?.oran.toString() ??
                         "ORAN_YOK"),
             RowText(
-                titleData: StringConstants.instance!.listViewFirstSubtitle,
+                titleData: StringConstants.instance!.listViewThirthSubtitle,
                 contentData:
-                    viewModel.items.children?[index]?.yuzde.toString() ??
-                        "YUZDE_YOK"),
+                    "%${viewModel.items.children?[index]?.yuzde}"),
           ],
         );
 }

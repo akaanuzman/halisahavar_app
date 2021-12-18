@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../text/bold_text.dart';
 
 //* Row Text.

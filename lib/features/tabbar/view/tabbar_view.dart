@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:halisahavar_app/core/constants/icon/icon_constants.dart';
 import '../../coupon/view/coupon_view.dart';
 import '../../match/view/match_view.dart';
 import '../model/tabbar_model.dart';
@@ -7,9 +8,14 @@ class TabbarView extends StatelessWidget {
   TabbarView({Key? key}) : super(key: key);
 
   final List<TabModel> _tabsItem = [
-    TabModel(title: "Maçlarım", icon: Icons.sports_soccer, child: MatchView()),
     TabModel(
-        title: "Kuponlarım", icon: Icons.savings, child: const CouponView()),
+        title: "Maçlarım",
+        icon: IconConstants.instance!.firstTabBar,
+        child: MatchView()),
+    TabModel(
+        title: "Kuponlarım",
+        icon: IconConstants.instance!.secondTabBar,
+        child: CouponView()),
   ];
 
   @override
