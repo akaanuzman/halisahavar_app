@@ -15,7 +15,7 @@ Projede MVVM yazılım mimari modeli kullandım.
 <img src="https://api.hackathonturkiye.com/media/hosting/images/mvvm.jpg">
 
 ## 📁 Foldering
-Projemiz core,features,product olmak üzere üç klasörden oluşuyor.Core katmanında tüm projelerde kullandığım, projeden projeye taşıdığım sınıflar,componentler,managerlar vs bulunyor. Features katmanında ekranlarımız MVVM yazılım mimari modeline göre ayrılıyor. Product kısmında ise projeye özel componentler, sınıflar,managerlar vs bulunuyor.
+Projemiz core,features,product olmak üzere üç klasörden oluşuyor.Core katmanında tüm projelerde kullandığım, projeden projeye taşıdığım sınıflar,componentler,managerlar vs bulunuyor. Features katmanında ekranlarımız MVVM yazılım mimari modeline göre ayrılıyor. Product kısmında ise projeye özel componentler, sınıflar,managerlar vs bulunuyor.
 
 
 ## 🎁 Packages 
@@ -23,7 +23,7 @@ Tasarım kısmında bana çok kolaylık sağlayan propertyleri olduğu için Vel
 
 
 ## 🔍 Preview
-Proje maçlarım ve kuponlarım olmak üzere iki kısımdan oluşuyor. Maçlarım kısmında api'den gelen maçlar ekranda listelenmektedir. Maçlardan herhangi biri seçildiğinde seçilen maç kuponlar sayfasına eklenmektedir. Seçim devre dışı bırakıldığında seçilen maç kuponlar sayfasından silinmektedir. Kuponlar sayfasında ise hiçbir maç seçili değil ise Kuponlarım Boş yazısı ekranda görülmektedir.Maç seçiili ise seçilen maçlar kuponlarım sayfasında listelenmektedir. Maçların sağında bulunan çöp kutusuna tıklayarak seçili maçı silebiliriz. Sağ altta bulunun + butonuna tıklayarak kupon oluşturabilir maçların oranlarına ve toplam orana ulaşabilirsiniz.
+Proje maçlarım ve kuponlarım olmak üzere iki kısımdan oluşuyor. Maçlarım kısmında api'den gelen maçlar ekranda listelenmektedir. Maçlardan herhangi biri seçildiğinde seçilen maç kuponlar sayfasına eklenmektedir. Seçim devre dışı bırakıldığında seçilen maç kuponlar sayfasından silinmektedir. Kuponlar sayfasında ise hiçbir maç seçili değil ise Kuponlarım Boş yazısı ekranda görülmektedir.Maç seçiili ise seçilen maçlar kuponlarım sayfasında listelenmektedir. Maçların sağında bulunan çöp kutusuna tıklayarak seçili maçı silebiliriz. Sağ altta bulunan + butonuna tıklayarak kupon oluşturabilir maçların oranlarına ve toplam orana ulaşabilirsiniz.
 
 
 
