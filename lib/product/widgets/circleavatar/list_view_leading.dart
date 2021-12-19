@@ -6,12 +6,14 @@ import '../../../core/constants/color/color_constants.dart';
 
 class ListViewLeading extends CircleAvatar {
   final IconData icon;
-  ListViewLeading({Key? key,required this.icon})
+  final void Function()? onPressed;
+  ListViewLeading({Key? key, required this.icon, this.onPressed})
       : super(
           key: key,
           backgroundColor: ColorConstants.instance!.salem,
-          child: Icon(
-            icon,
+          child: IconButton(
+            onPressed: onPressed,
+            icon: Icon(icon),
             color: Colors.white,
           ),
         );

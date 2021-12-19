@@ -16,4 +16,6 @@ class StringConstants {
   final String listViewFirstSubtitle = "Sistem tahmini: ";
   final String listViewSecondSubtitle = "Tahmin oranı: ";
   final String listViewThirthSubtitle = "Tahmin yüzdesi: ";
+  final String fabButtonTooltip = "Kupon oluştur";
+  final String couponCardTitle = "Kuponlarım";
 }

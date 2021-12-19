@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:halisahavar_app/core/constants/icon/icon_constants.dart';
+import '../../../core/constants/icon/icon_constants.dart';
 import '../../coupon/view/coupon_view.dart';
 import '../../match/view/match_view.dart';
 import '../model/tabbar_model.dart';

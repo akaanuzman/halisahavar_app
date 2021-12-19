@@ -20,6 +20,6 @@ class IconConstants {
   final IconData listViewLeading = Icons.sports;
   final IconData listViewTrailing = Icons.add_task;
   final IconData fabIcon = Icons.add;
-  final IconData couponMatchListViewLeading = Icons.attach_money;
+  final IconData couponMatchListViewLeading = Icons.delete_forever_rounded;
   final IconData couponListViewLeading = Icons.description;
 }
